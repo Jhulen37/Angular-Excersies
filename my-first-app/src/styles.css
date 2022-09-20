@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background: url('https://i0.wp.com/www.tor.com/wp-content/uploads/2015/10/Frodo02-740x334.jpg?fit=740%2C%209999&crop=0%2C0%2C100%2C334px') no-repeat center center fixed;
+  background-size: cover;
+}
