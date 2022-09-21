@@ -1,0 +1,12 @@
+<div class="scroll-to-top" [ngClass]="{ 'show-scrollTop': windowScrolled }">
+  <button
+    style="color: rgb(5, 5, 5); background-color: lightpink"
+    type="button"
+    class="btn active"
+    data-toggle="button"
+    aria-pressed="true"
+    (click)="scrollToTop()"
+  >
+    <i class="fas fa-chevron-up">Going Up!</i>
+  </button>
+</div>

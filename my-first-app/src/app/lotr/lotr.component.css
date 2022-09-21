@@ -1,0 +1,36 @@
+.show {
+  width: 25%;
+  margin-left: 38%;
+  margin-right: 38%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.name {
+  color: white;
+}
+.lore {
+  color: #f5f0f0;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  width: 900vw;
+}
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
