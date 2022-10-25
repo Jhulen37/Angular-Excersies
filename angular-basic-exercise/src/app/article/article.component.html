@@ -1,0 +1,15 @@
+<h1 [ngStyle]="{ color: getColor() }">{{ title }}</h1>
+
+<button btn class="btn-primary" (click)="toggleIsTechRelated()">
+  Changing
+</button>
+
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores pariatur
+  incidunt fuga vel! Optio sint, amet officiis praesentium consequatur
+  aspernatur quis quasi alias, commodi sit aliquam nam provident corporis
+  placeat!
+</p>
+<p *ngIf="isTechRelated; else elseBlock">{{ techRelatedMockText }}</p>
+
+<ng-template #elseBlock>not{{ techRelatedMockText }}</ng-template>

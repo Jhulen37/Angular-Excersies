@@ -1,0 +1,8 @@
+<input [disabled]="isDisabled" type="text" />
+<button (click)="isDisabled = !isDisabled">
+  {{
+    isDisabled
+      ? "Currently Disabled!"
+      : "Click me to change the value of isDisabled!"
+  }}
+</button>
