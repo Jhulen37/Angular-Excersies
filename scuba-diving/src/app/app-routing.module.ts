@@ -1,20 +1,14 @@
-import { AuthGuard } from './helpers/auth.guard';
-import { SecretComponent } from './secret/secret.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { RegisterPageComponent } from './register-page/register-page.component';
-import { LoginPageComponent } from './login-page/login-page.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: SecretComponent,
-    canActivate: [AuthGuard],
+    component: HomeComponent,
   },
-  {
-    path: 'login',
-    component: LoginPageComponent,
-  },
+
   {
     path: 'register',
     component: RegisterPageComponent,
